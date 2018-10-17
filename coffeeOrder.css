@@ -1,0 +1,95 @@
+body{
+  background-image: url(2.png);
+  background-size: 100%;
+}
+
+#thRow{
+  display: flex;
+    justify-content: space-around;
+    margin: 5;
+}
+#thInput{
+  width:10rem;
+}
+#noDiv{
+  width: 6rem;
+}
+
+#delButtonDiv{
+  display: flex;
+  justify-content: space-between;
+}
+.thead-dark{
+  background-color: black;
+  color: white;
+}
+#tableHeading{
+
+}
+#orderDisplay{
+  display: flex;
+  justify-content: center;
+}
+
+#displayOrder{
+  font-size: 20px;
+}
+.table{
+  width: 80%;
+}
+#searchButton{
+
+  border-radius: 3px;
+  border-style:solid;
+  border-width: thick;
+
+}
+#inputBox{
+  width: 46%;
+}
+#deleteButton{
+  height: 1.3rem;
+  border-style: outset;
+  background-color: #00FFFFy;
+
+
+  /* display: inline-block;
+  border-radius: 2px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding: 4px;
+  width: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2px;
+}
+
+#deleteButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#deleteButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#deleteButton:hover span {
+  padding-right: 25px;
+}
+
+#deleteButton:hover span:after {
+  opacity: 1;
+  right: 0;
+} */
+
+}
